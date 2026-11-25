@@ -7,7 +7,23 @@ bordo saten fiyonk. Acilista kagit sarilir, cicekler tek tek acar.
 Baslik/mesaj/imza yazilari varsayilan olarak kapali; `ayarlar.js` icinde `yazilar: true`
 ya da `node buket.js --yazili` ile acilir.
 
-## Calistirma
+## En kolayi: tarayicida
+
+https://egejpg.github.io/ascii-flowers/
+
+Hicbir sey kurmaya gerek yok. Surukleyerek cevir, tiklayinca durur.
+
+## Mac terminalinde (kurulum yok)
+
+Terminal uygulamasini ac (Cmd + Bosluk, "Terminal" yaz), su satiri yapistir, Enter:
+
+```
+curl -fsSL https://raw.githubusercontent.com/egejpg/ascii-flowers/main/mac.sh | sh
+```
+
+Node.js'i bilgisayara kurmaz, gecici bir klasore indirip oradan calistirir. Cikmak icin `q`.
+
+## Calistirma (Node.js yuklu ise)
 
 Sadece Node.js (18+) yeterli, paket kurulumu yok.
 
