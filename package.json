@@ -1,0 +1,11 @@
+{
+  "name": "ascii-flowers",
+  "version": "0.1.0",
+  "description": "Terminalde donen 3B ASCII cicek buketi",
+  "type": "module",
+  "bin": { "buket": "buket.js" },
+  "scripts": {
+    "start": "node buket.js"
+  },
+  "license": "MIT"
+}
